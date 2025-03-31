@@ -1,0 +1,33 @@
+{
+  "name": "user_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feeleep-lgtm/User_management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Feeleep-lgtm/User_management/issues"
+  },
+  "homepage": "https://github.com/Feeleep-lgtm/User_management#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
