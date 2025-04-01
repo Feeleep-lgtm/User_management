@@ -1,0 +1,30 @@
+name: Github Actions Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+
+
+  pull_request:
+    branches: 
+    - main
+
+  workflow_dispatch:
+
+jobs:
+  Hello
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Hello World
+        run: echo "Hello World"
+        shell: bash
+
+  Goodbye
+    runs-on: ubuntu-latest
+    steps:
+      - name: Goodbye
+        run: echo "Goodbye"
+        shell: bash
