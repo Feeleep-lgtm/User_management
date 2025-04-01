@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Hello
+  Hello:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -22,7 +22,7 @@ jobs:
         run: echo "Hello World"
         shell: bash
 
-  Goodbye
+  Goodbye:
     runs-on: ubuntu-latest
     steps:
       - name: Goodbye
